@@ -1,0 +1,196 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    min-width: 320px;
+   
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    line-height: 1;
+    font-family: Poppins;
+    width: 100%;
+    background-color: #EEEEEE;
+
+}
+
+.wrapper {
+    background-color: #fefefe;
+    overflow: hidden;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.page {
+    flex: 1 1 auto
+}
+
+
+
+.header__container {
+    padding: 1rem 3rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    max-width: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: bisque;
+}
+
+@media (max-width: 650px) {
+    .header__container {
+        flex-direction: column;
+    }
+}
+
+.header__name h1 {
+    text-align: center;
+
+}
+
+.header__navigation {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.navigation__list {
+    padding-top: 1.2rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-style: italic;
+flex-wrap: wrap;
+}
+
+.navigation__item {
+    margin-left: 1rem;
+    padding-bottom: 0.8rem;
+
+}
+
+.navigation__item a:hover {
+    color: blue;
+}
+
+.about-me__container {
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.about-me__content {
+    padding-top: 1rem;
+    display: flex;
+    width: 100%;
+   
+}
+.about-me__text {
+   
+    margin-right: 3rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.about-me__content img {
+    border-radius: 10px;
+    min-width: 360px;
+    width: 30%;
+    
+}
+
+@media (max-width: 1000px) {
+    .about-me__content{
+        flex-direction: column;
+
+    }
+}
+
+@media (max-width: 400px) {
+    .about-me__content img {
+        min-width: 250px;
+    }
+
+}
+
+.gitHub:hover {
+    color: hsl(0, 52%, 50%);
+}
+
+.skills__container {
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.icons {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.font  {
+    font-size: 4rem;
+   
+}
+
+.footer {
+    margin: 1rem auto;
+}
+
+.hearth {
+    color: hsl(0, 52%, 50%);
+}
+
+.contact {
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+@media (max-width:650px) {
+    .contact {
+        margin-top: 10rem;
+    }
+}
+
+.contact .font {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.gitContact {
+    width: 64px;
+    height: 62px;
+}
